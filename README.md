@@ -85,10 +85,6 @@ just another panel: move it, resize it, or remove it like anything else.
 | **Update** | See your installed version against the published one, and install a newer build in a click (when the optional native updater is set up). |
 | **Tools** | Quick access to your timer, bookmarks, vault and shared todos. |
 
-<div align="center">
-  <img src="docs/screenshots/popup.png" alt="ixi-wave popup" width="320">
-</div>
-
 ## Design
 
 A warm, low-contrast palette over a subtle paper grain, monospace type, and thin
