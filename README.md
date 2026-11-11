@@ -2,11 +2,11 @@
 
 # ixi-wave extension
 
-**A new-tab page and a portfolio companion, in one small Chrome extension.**
+**A new-tab page, in one small Chrome extension.**
 
 Replace your browser's new tab with a quiet, warm dashboard — bookmarks, tasks,
-timers, a calendar, a clock, shortcuts and live weather — and sign in to the
-[ixiflower](https://ixiflower.vercel.app) admin from the toolbar.
+timers, a calendar, a clock, shortcuts and live weather — and arrange every panel
+however you like.
 
 </div>
 
@@ -29,8 +29,8 @@ The **new tab** is the main surface — a paper-textured dashboard you arrange
 yourself. Every widget is a floating panel you can move, resize, or remove, and
 the layout is remembered per browser profile.
 
-The **toolbar popup** is the smaller half: sign in to your account, sync your
-setup across machines, and check for updates.
+The **toolbar popup** is the smaller half: check your installed version against
+the published one and install a newer build in a click.
 
 ## Features
 
@@ -41,7 +41,7 @@ setup across machines, and check for updates.
 | **Search bar** | Type to search; a keyword (`gh`, `yt`, `wiki`, …) swaps the engine inline, and `>` runs a command. |
 | **Clock** | The date and time, in several faces — from clean Geist to pixel-cut display fonts. |
 | **Bookmarks** | Your saved links, as a panel. |
-| **Open tasks** | Task lists you can share — connect a list from the site and check items off from the new tab. |
+| **Open tasks** | Task lists you can share — connect a list and check items off from the new tab. |
 | **Running timers** | Countdowns and stopwatches that survive a refresh. |
 | **Calendar** | The month at a glance, today marked. |
 | **Shortcuts** | Pinned sites, either as a grid or as a single large icon. |
@@ -81,7 +81,6 @@ just another panel: move it, resize it, or remove it like anything else.
 
 | Panel | What it does |
 | --- | --- |
-| **Login / Signup** | Sign in to your account, or create one if the deployment allows it. |
 | **Update** | See your installed version against the published one, and install a newer build in a click (when the optional native updater is set up). |
 | **Tools** | Quick access to your timer, bookmarks, vault and shared todos. |
 
@@ -122,19 +121,18 @@ popup.
 | `favicon` | Show site icons for your bookmarks and shortcuts. |
 | `nativeMessaging` | Optional — only used for the one-click self-update, and only if you install the separate updater host. Everything else works without it. |
 | `management` (optional) | Requested only at the moment you turn the new-tab override on or off, to check the extension's own state. Not required to use the extension. |
-| `https://ixiflower.vercel.app/*` | Talk to your account: sign in, sync, and check for updates. |
+| `https://ixiflower.vercel.app/*` | Check for updates against the published build. |
 | `http://localhost:3000/*` | Development only, so a local build of the site can be used while testing. |
 
-Nothing is sent anywhere except your own site, `ixiflower.vercel.app`, and it is
-only sent when you sign in.
+Nothing is sent anywhere except your own site, `ixiflower.vercel.app`, and only
+for the update check.
 
 ## Security
 
 This repository publishes **the built, ready-to-install package and nothing
 else**. It contains no server code, no database credentials, no API keys and no
 environment files — the extension runs entirely in your browser and holds no
-secrets of its own. Your account token lives in your browser's own storage, on
-your machine, and is used only to talk to your site.
+secrets of its own.
 
 See [SECURITY.md](SECURITY.md) for how the extension handles your data and how to
 report a concern.
@@ -158,5 +156,5 @@ redistribute or republish it as your own without asking first.
 ---
 
 <div align="center">
-<sub>Made by <a href="https://github.com/Amirabbas-RU">Amirabbas Rouintan</a> · <a href="https://ixiflower.vercel.app">ixiflower.vercel.app</a></sub>
+<sub>Made by <a href="https://github.com/Amirabbas-RU">Amirabbas Rouintan</a></sub>
 </div>
