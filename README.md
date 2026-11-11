@@ -8,9 +8,16 @@ Replace your browser's new tab with a quiet, warm dashboard — bookmarks, tasks
 timers, a calendar, a clock, shortcuts and live weather — and sign in to the
 [ixiflower](https://ixiflower.vercel.app) admin from the toolbar.
 
-![ixi-wave new tab page](docs/screenshots/newtab.png)
+</div>
 
-<sub>Version 0.10.18 · Manifest V3 · Chromium (Chrome, Edge, Brave, Arc, Opera)</sub>
+<div align="center">
+  <img src="docs/screenshots/newtab-dark.png" alt="ixi-wave new tab — dark theme" width="49%">
+  <img src="docs/screenshots/newtab-light.png" alt="ixi-wave new tab — light theme" width="49%">
+</div>
+
+<div align="center">
+
+<sub>Ships light and dark · Version 0.10.18 · Manifest V3 · Chromium (Chrome, Edge, Brave, Arc, Opera)</sub>
 
 </div>
 
@@ -59,6 +66,16 @@ There are 23 bangs built in (GitHub, Stack Overflow, MDN, npm, PyPI, crates.io,
 Hugging Face, YouTube, Spotify, Twitch, Reddit, IMDb, Maps, Amazon, and more),
 plus 6 selectable search engines: DuckDuckGo, Google, Brave, Bing, Startpage and
 Ecosia.
+
+### Decor gallery
+
+For pure atmosphere, open the decor gallery and drag a small 3D object onto the
+page — a classical bust, a katana, a lighthouse, a moon, and more. Each one is
+just another panel: move it, resize it, or remove it like anything else.
+
+<div align="center">
+  <img src="docs/screenshots/decor-gallery.png" alt="The ixi-wave decor gallery" width="300">
+</div>
 
 ### Popup
 
