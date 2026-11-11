@@ -1,0 +1,36 @@
+ixi-wave extension — License
+Copyright (c) 2026 Amirabbas Rouintan (ixiflower). All rights reserved.
+
+This repository publishes a built, ready-to-install copy of the "ixi-wave"
+browser extension (the "Software"). The Software is made available so that
+people can install it and use it.
+
+Permission is granted, free of charge, to:
+
+  1. download, install and use the Software for personal, non-commercial
+     purposes;
+  2. share this repository's URL with others.
+
+You may NOT, without prior written permission from the copyright holder:
+
+  1. redistribute, republish, sublicense or sell the Software, in whole or in
+     part, or include it in another product or repository;
+  2. modify, decompile, reverse engineer or create derivative works from the
+     Software, except to the extent that applicable law expressly permits;
+  3. remove or alter this notice or any copyright, attribution or version
+     information contained in the Software;
+  4. use the Software, or any part of it, to provide a competing service or to
+     misrepresent its origin.
+
+The Software is provided "AS IS", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and non-infringement. In no event shall the
+copyright holder be liable for any claim, damages or other liability, whether in
+an action of contract, tort or otherwise, arising from, out of or in connection
+with the Software or the use or other dealings in the Software.
+
+The Software communicates only with the maintainer's own site,
+https://ixiflower.vercel.app. It contains no credentials and grants no access to
+any private system.
+
+Questions about this license: contact @Amirabbas-RU on GitHub.
