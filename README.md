@@ -96,8 +96,8 @@ themeable, and it ships light and dark.
 The extension is not on the Chrome Web Store. You load it as an **unpacked
 extension** from the built archive:
 
-1. Download [`ixi-extension.zip`](ixi-extension.zip) from this repo (or grab the
-   latest build from [`https://ixiflower.vercel.app/ixi-extension.zip`](https://ixiflower.vercel.app/ixi-extension.zip)).
+1. Download [`ixi-extension.zip`](ixi-extension.zip) from this repo, or get it
+   from the latest [release](https://github.com/Amirabbas-RU/ixi-wave-extension/releases/latest).
 2. Unzip it anywhere you'll keep it (e.g. `~/ixi-wave-extension`). **Don't
    delete the folder afterwards** — Chrome loads the extension from it directly.
 3. Open `chrome://extensions`.
