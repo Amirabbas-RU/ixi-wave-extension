@@ -17,7 +17,7 @@ however you like.
 
 <div align="center">
 
-<sub>Ships light and dark · Version 0.10.18 · Manifest V3 · Chromium (Chrome, Edge, Brave, Arc, Opera)</sub>
+<sub>Ships light and dark · Version 0.10.21 · Manifest V3 · Chromium (Chrome, Edge, Brave, Arc, Opera)</sub>
 
 </div>
 
@@ -145,7 +145,8 @@ you're on the latest, you are.
 
 | Version | Notes |
 | --- | --- |
-| `0.10.18` | Current build. |
+| `0.10.21` | Current build. Paste notices are drawn as pixel art, with an accent blink on the placed shortcut. |
+| `0.10.18` | First published build. |
 
 ## License
 
